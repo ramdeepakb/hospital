@@ -1,0 +1,27 @@
+body{
+  background:silver;
+}
+h1{
+  text-align:center;
+  text-transform:uppercase;
+}
+.symbols{
+  margin:2px;
+  padding: 30px;
+}
+i{
+  background-color: white;
+padding: 80px;
+margin: 5px;
+border: 2px solid;
+border-color: black;
+border-radius: 20%;
+font-size: 50px;
+}
+a{
+  text-decoration:none;
+}
+i:hover{
+  background-color: yellow;
+  transition:0.5s;
+}

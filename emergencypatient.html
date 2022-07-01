@@ -1,0 +1,73 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body{
+  background: url("https://hsc.unm.edu/health/patient-care/emergency-trauma-care/img/hospital-hallway.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form{
+  color:black;
+  font-size:18px;
+}
+button{
+  color:orange;
+  background:black;
+}
+.submit{
+  background:blue;
+  color:
+
+}
+form{
+  position: absolute;
+  top:35%;
+  left:35%;
+  background: white;
+  width:390px;
+margin:-140px 0 0 -102px;
+padding: 40px;
+box-shadow: 0 0 100px rgba(0,0,0,0.3);
+
+}
+input{
+  color: black;
+}
+select{
+  color:black;
+}
+</style>
+</head>
+<body>
+
+  <form>
+      <h1 style="color:red;">Emergency Patient</h1>
+    Patient name :<input type=text placeholder=patientname><bR>
+      Gender :<input type=radio>male<input type="radio">female<br>
+      Age :<input type=text placeholder=age><br>
+      Date :<input type=date><bR>
+        Available Doctors :<select>
+          <option>avialable</option>
+          <option>Dr.Sirisha</option>
+          <option>Dr.Sindhu</option>
+          <option>Dr.Naveen</option>
+        </select><br>
+        Blood type :<select>
+          <option>Avialble</option>
+          <option>O+</option>
+            <option>A+</option>
+              <option>B+</option>
+                <option>AB+</option>
+        </select><br>
+        <input type=submit class=submit>&nbsp;&nbsp;<button type=button onclick=print()>Print</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<html>
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+body{
+  background: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+table tr{
+  color:orn
+}
+table tr{
+  padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+<h1 align=center>Appointment</h1>
+<br>
+
+			<div  class="appointment">
+				<form name="f1" action="appointmentinsert.php" method="post">
+
+  <table  align=center cellspacing=10 cellpadding=10>
+
+      <tr>
+        <td>
+
+					Name :</td>
+          <td><input type="text" id="name" placeholder="Name" name="name" required="">
+        </td>
+      </tr>
+      <tr>
+					<td>Gender :
+          </td>
+          <td><input type="radio" id="gender" value=Male name="gender" required="">Male
+            <input type=radio id=gender value=Female name=gender>Female
+          </td>
+        </tr>
+        <tr>
+          <td>
+        Age :
+      </td>
+      <td>
+					<input type="number" id="age" placeholder="age" name="age" required="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+        Mobile No :
+      </td>
+      <td>
+					<input type="number" id="number" placeholder="mobile_num" name="mobile_num" required="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+      Address 1 :
+      </td>
+      <td>
+          <textarea id=address name=address required="" placeholder=address rows=5 cols=23>
+          </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+      Address 2 :
+      </td>
+      <td>
+          <textarea id=address name=address required="" placeholder=address rows=5 cols=23>
+          </textarea>
+        </td>
+      </tr>
+      <br>
+      <tr>
+        <td>Purpose :</td>
+        <td><input type=text placeholder=Purpose required="" name=purpose>
+        </td>
+      </tr>
+      <br>
+<tr>
+  <td>Have you already visited ?</td>
+  <td><input type="radio" id="visited" value=Yes name="visited" required="">Yes
+    <input type=radio id=visited value=No name=visited>No
+  </td>
+  </tr>
+  <tr>
+  </tr>
+<tr>
+  <td>
+					<button class="btn btn-primary" name="save" onclick="">Submit</button>
+        </td>
+        <td>
+          <button type=button class="btn btn-success" onclick=print()>Print</button>
+        </td>
+      </tr>
+
+				</form>
+      </table>
+			</div>
+
+</body>
+</html>
